@@ -1,0 +1,22 @@
+# Основные зависимости для RAG-ассистента (Yandex Embeddings + GigaChat)
+# Консолидированная версия — единый ассистент с корневой папкой /DATA
+
+# Yandex Embeddings API (через requests)
+requests>=2.31.0
+
+# GigaChat через LangChain
+langchain-gigachat>=0.3.0
+langchain-core>=0.1.0
+
+# ChromaDB для локального векторного хранилища
+chromadb>=0.4.22
+
+# Загрузка переменных окружения из .env файла
+python-dotenv>=1.0.0
+
+# RAGAS для оценки качества RAG
+# ragas>=0.2.0
+
+# Совместимые версии для Python 3.11
+# pydantic>=2.0.0,<3.0.0
+# datasets>=2.14.0
